@@ -1,0 +1,921 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Girls Chat</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Chat with girls online.  100% free to use.   Meet new friends and talk with random strangers from all over the world in many girls chat rooms.">
+<meta name="keywords" content="girls chat, free girls chat, free girls chat rooms, chat rooms, chat, women, ladies">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+<link id="siteicon" rel="shortcut icon" type="image/png" href="default_images/icon.png?v=1.81" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=1.81" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css?v=1.81" />
+<link rel="stylesheet" type="text/css" href="css/selectboxit.css?v=1.81" />
+<link rel="stylesheet" type="text/css" href="css/main.css?v=1.81" />
+<link id="gradient_sheet" rel="stylesheet" type="text/css" href="css/colors.css?v=1.81" />
+<link id="actual_theme" rel="stylesheet" type="text/css" href="css/themes/Lite/Lite.css?v=1.81" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css?v=1.81" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27368602-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-27368602-4');
+</script>
+<script data-cfasync="false" src="js/jquery-1.11.2.min.js?v=1.81"></script>
+<script defer="defer" src="system/language/English/language.js?v=1.81"></script>
+<script defer="defer" src="js/fancybox/jquery.fancybox.js?v=1.81"></script>
+<script defer="defer" src="js/jqueryui/jquery-ui.min.js?v=1.81"></script>
+<script defer="defer" src="js/global.min.js?v=1.81"></script>
+<script data-cfasync="false" src="js/function_split.js?v=1.81"></script>
+<script data-cfasync="false" src="js/function_logged.js?v=1.81"></script>
+<link rel="stylesheet" type="text/css" href="css/custom.css?v=1.81" />
+<script data-cfasync="false">
+		var pageEmbed = 0;
+		var pageRoom = 1;
+		var curPage = 'chat';
+		var loadPage = '';
+		var bbfv = '?v=1.81';
+		var rtlMode = '0';
+	</script>
+<script data-cfasync="false">
+		var user_rank = 1;
+		var user_id = 2919700;
+		var utk = '8097b8987867139191b3dc3a00305d34';
+		var avw = 1;
+		var cvw = 1;
+		var fmw = 1;
+		var uSound = '1234';
+		var logged = 1;
+		var systemLoaded = 0;
+	</script>
+<script data-cfasync="false">
+		var user_room = 1;
+		var sesid = '1';
+		var userAction = '0';
+		var pCount = "0";
+		var source = "https://ice55.securenetsystems.net/DASH58?cb=1589419551";
+		var speed = 3000;
+		var inOut = 0;
+		var snum = "29197009019870";
+		var balStart = 1;
+		var rightHide = 900;
+		var rightHide2 = 901;
+		var leftHide = 1223;
+		var leftHide2 = 1223;
+		var defRightWidth = 250;
+		var defLeftWidth = 150;
+		var cardCover = 1;
+		var userAge = "years old";
+	</script>
+</head>
+<body>
+<div id="chat_head" class="chat_head">
+<div onclick="toggleLeft();" class="head_option">
+<div class="btable">
+<div class="bcell_mid">
+<i class="fa fa-bars i_btm"></i>
+</div>
+</div>
+<div id="bottom_news_notify" class="head_notify bnotify"></div>
+</div>
+<div class="chat_head_logo">
+<a href="https://www.chat-avenue.com/" rel="noopener" target="_blank"><img id="main_logo" alt="logo" src="default_images/roomlogo.png" /></a>
+</div>
+<div id="empty_top_mob" class="bcell_mid hpad10">
+</div>
+<div value="0" onclick="getPrivate();" id="get_private" class="privelem head_option">
+<div class="btable">
+<div class="bcell_mid">
+<i class="fa fa-envelope i_btm"></i>
+</div>
+</div>
+<div id="notify_private" class="head_notify bnotify"></div>
+</div>
+<div onclick="friendRequest();" class="head_option">
+<div class="btable">
+<div class="bcell_mid">
+<i class="fa fa-user"></i>
+</div>
+</div>
+<div id="notify_friends" class="head_notify bnotify"></div>
+</div>
+<div onclick="getNotification();" class="head_option">
+<div class="btable">
+<div class="bcell_mid">
+<i class="fa fa-bell"></i>
+</div>
+</div>
+<div id="notify_notify" class="head_notify bnotify"></div>
+</div>
+<div class="menutrig" onclick="showMenu('mobile_main_menu');" id="main_mob_menu">
+<img class="avatar_menu glob_av menutrig" src="https://www.chat-avenue.com/girls/avatar/Google_eaa2cdcfd82552dbc8441d235188e3c3.jpg" />
+<div id="mobile_main_menu" class="sysmenu hideall fmenu">
+<div class="fmenu_item" onclick="editProfile();">
+<div class="fmenu_icon">
+<i class="fa fa-user-circle menuo"></i>
+</div>
+<div class="fmenu_text">
+My profile </div>
+</div>
+<div id="room_setting_menu" class="room_granted nogranted fmenu_item" onclick="getRoomSetting();">
+<div class="fmenu_icon">
+<i class="fa fa-cog menuo"></i>
+</div>
+<div class="fmenu_text">
+Room Settings </div>
+</div>
+<div id="open_logout" class="fmenu_item" onclick="openLogout();">
+<div class="fmenu_icon">
+<i class="fa fa-sign-out menuo"></i>
+</div>
+<div class="fmenu_text">
+Logout </div>
+</div>
+</div>
+</div>
+</div>
+<div id="global_chat" class="chatheight">
+<div id="chat_left" class="cleft chat_panel pheight">
+<div id="chat_left_menu" class="pheight">
+<div class="chat_left_menu_wrap">
+<div class="left_bar_ctn hidden">
+<div id="left_panel_bar" class="panel_bar">
+<div onclick="toggleLeft();" class="panel_bar_item">
+<i class="fa fa-times"></i>
+</div>
+<div class="bcell_mid">
+</div>
+</div>
+</div>
+<div id="status_menu" class="left_list">
+<div id="current_status" onclick="openStatusList();" class="left_item cur_status">
+<div class="status_zone"><img class="status_icon" src="default_images/status/online.svg" /></div><div class="status_text">Online</div> </div>
+</div>
+<div id="wall_menu" class="left_list left_item" onclick="getWall();">
+<div class="left_item_icon">
+<i class="fa fa-rss menui"></i>
+</div>
+<div class="left_item_text">
+Friends wall </div>
+</div>
+<div id="news_menu" class="left_list left_item" onclick="getNews();">
+<div class="left_item_icon">
+<i class="fa fa-newspaper-o menui"></i>
+</div>
+<div class="left_item_text">
+News </div>
+<div class="left_item_notify">
+<span id="news_notify" class="notif_left bnotify"></span>
+</div>
+</div>
+<div id="end_left_menu">
+</div>
+<div id="more_menu" class="left_list">
+<div id="open_more_menu" class="left_item" onclick="openMoreMenu();">
+<div class="left_item_icon">
+<i class="fa fa-plus menui"></i>
+</div>
+<div class="left_item_text">
+More </div>
+</div>
+<div id="more_menu_list" class="hidden">
+<div id="chat_help_menu" class="left_drop_item more_left" onclick="showHelp();">
+<div class="left_drop_text">
+Help </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container_extra">
+</div>
+</div>
+</div>
+<div id="chat_center" class="background_chat chatheight" style="position:relative;">
+<div id="container_chat">
+<div id="wrap_chat">
+<div id="warp_show_chat">
+<div id="container_show_chat">
+<div id="inside_wrap_chat">
+<ul class="background_box" id="show_chat" value="1">
+<ul id="chat_logs_container">
+</ul>
+</ul>
+</div>
+<div value="0" id="main_emoticon" class="background_box">
+<div class="emo_head main_emo_head">
+<div data="base_emo" class="dark_selected emo_menu emo_menu_item"><img class="emo_select" src="emoticon_icon/base_emo.png" /></div>
+<div data="food" class="emo_menu emo_menu_item"><img class="emo_select" src="emoticon_icon/food.png" /></div><div data="sticker_animals" class="emo_menu emo_menu_item"><img class="emo_select" src="emoticon_icon/sticker_animals.png" /></div> <div class="empty_emo">
+</div>
+<div class="emo_menu" onclick="hideEmoticon();">
+<i class="fa fa-times"></i>
+</div>
+</div>
+<div id="main_emo" class="emo_content">
+<div title=":amazing:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/amazing.png" src="" onclick="emoticon('content', ':amazing:')" /></div><div title=":angel:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/angel.png" src="" onclick="emoticon('content', ':angel:')" /></div><div title=":angry:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/angry.png" src="" onclick="emoticon('content', ':angry:')" /></div><div title=":anxious:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/anxious.png" src="" onclick="emoticon('content', ':anxious:')" /></div><div title=":bad:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/bad.png" src="" onclick="emoticon('content', ':bad:')" /></div><div title=":bigsmile:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/bigsmile.png" src="" onclick="emoticon('content', ':bigsmile:')" /></div><div title=":blink:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/blink.png" src="" onclick="emoticon('content', ':blink:')" /></div><div title=":cool:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/cool.png" src="" onclick="emoticon('content', ':cool:')" /></div><div title=":crisped:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/crisped.png" src="" onclick="emoticon('content', ':crisped:')" /></div><div title=":cry:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/cry.png" src="" onclick="emoticon('content', ':cry:')" /></div><div title=":cry2:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/cry2.png" src="" onclick="emoticon('content', ':cry2:')" /></div><div title=":dead:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/dead.png" src="" onclick="emoticon('content', ':dead:')" /></div><div title=":desperate:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/desperate.png" src="" onclick="emoticon('content', ':desperate:')" /></div><div title=":devil:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/devil.png" src="" onclick="emoticon('content', ':devil:')" /></div><div title=":doubt:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/doubt.png" src="" onclick="emoticon('content', ':doubt:')" /></div><div title=":feelgood:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/feelgood.png" src="" onclick="emoticon('content', ':feelgood:')" /></div><div title=":funny:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/funny.png" src="" onclick="emoticon('content', ':funny:')" /></div><div title=":good:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/good.png" src="" onclick="emoticon('content', ':good:')" /></div><div title=":happy:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/happy.png" src="" onclick="emoticon('content', ':happy:')" /></div><div title=":happy3:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/happy3.png" src="" onclick="emoticon('content', ':happy3:')" /></div><div title=":hee:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hee.png" src="" onclick="emoticon('content', ':hee:')" /></div><div title=":heu:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/heu.png" src="" onclick="emoticon('content', ':heu:')" /></div><div title=":hilarous:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hilarous.png" src="" onclick="emoticon('content', ':hilarous:')" /></div><div title=":hmm:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hmm.png" src="" onclick="emoticon('content', ':hmm:')" /></div><div title=":hono:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hono.png" src="" onclick="emoticon('content', ':hono:')" /></div><div title=":hoo:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hoo.png" src="" onclick="emoticon('content', ':hoo:')" /></div><div title=":hooo:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/hooo.png" src="" onclick="emoticon('content', ':hooo:')" /></div><div title=":idontcare:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/idontcare.png" src="" onclick="emoticon('content', ':idontcare:')" /></div><div title=":indiferent:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/indiferent.png" src="" onclick="emoticon('content', ':indiferent:')" /></div><div title=":kiss:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/kiss.png" src="" onclick="emoticon('content', ':kiss:')" /></div><div title=":kiss2:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/kiss2.png" src="" onclick="emoticon('content', ':kiss2:')" /></div><div title=":kiss3:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/kiss3.png" src="" onclick="emoticon('content', ':kiss3:')" /></div><div title=":kiss4:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/kiss4.png" src="" onclick="emoticon('content', ':kiss4:')" /></div><div title=":med:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/med.png" src="" onclick="emoticon('content', ':med:')" /></div><div title=":medsmile:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/medsmile.png" src="" onclick="emoticon('content', ':medsmile:')" /></div><div title=":middlefinger:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/middlefinger.png" src="" onclick="emoticon('content', ':middlefinger:')" /></div><div title=":muted:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/muted.png" src="" onclick="emoticon('content', ':muted:')" /></div><div title=":nana:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/nana.png" src="" onclick="emoticon('content', ':nana:')" /></div><div title=":neutral:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/neutral.png" src="" onclick="emoticon('content', ':neutral:')" /></div><div title=":noooo:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/noooo.png" src="" onclick="emoticon('content', ':noooo:')" /></div><div title=":nosebleed:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/nosebleed.png" src="" onclick="emoticon('content', ':nosebleed:')" /></div><div title=":omg:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/omg.png" src="" onclick="emoticon('content', ':omg:')" /></div><div title=":omgomg:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/omgomg.png" src="" onclick="emoticon('content', ':omgomg:')" /></div><div title=":pokerface:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/pokerface.png" src="" onclick="emoticon('content', ':pokerface:')" /></div><div title=":poo:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/poo.png" src="" onclick="emoticon('content', ':poo:')" /></div><div title=":reverse:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/reverse.png" src="" onclick="emoticon('content', ':reverse:')" /></div><div title=":sad:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/sad.png" src="" onclick="emoticon('content', ':sad:')" /></div><div title=":sad2:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/sad2.png" src="" onclick="emoticon('content', ':sad2:')" /></div><div title=":scared:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/scared.png" src="" onclick="emoticon('content', ':scared:')" /></div><div title=":sick2:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/sick2.png" src="" onclick="emoticon('content', ':sick2:')" /></div><div title=":sleep:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/sleep.png" src="" onclick="emoticon('content', ':sleep:')" /></div><div title=":smile:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/smile.png" src="" onclick="emoticon('content', ':smile:')" /></div><div title=":smileface:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/smileface.png" src="" onclick="emoticon('content', ':smileface:')" /></div><div title=":smileteeth:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/smileteeth.png" src="" onclick="emoticon('content', ':smileteeth:')" /></div><div title=":sweat:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/sweat.png" src="" onclick="emoticon('content', ':sweat:')" /></div><div title=":tongue:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/tongue.png" src="" onclick="emoticon('content', ':tongue:')" /></div><div title=":tongue2:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/tongue2.png" src="" onclick="emoticon('content', ':tongue2:')" /></div><div title=":tongue3:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/tongue3.png" src="" onclick="emoticon('content', ':tongue3:')" /></div><div title=":toro:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/toro.png" src="" onclick="emoticon('content', ':toro:')" /></div><div title=":totalangry:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/totalangry.png" src="" onclick="emoticon('content', ':totalangry:')" /></div><div title=":totallove:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/totallove.png" src="" onclick="emoticon('content', ':totallove:')" /></div><div title=":trump:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/trump.png" src="" onclick="emoticon('content', ':trump:')" /></div><div title=":verysad:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/verysad.png" src="" onclick="emoticon('content', ':verysad:')" /></div><div title=":whaaa:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/whaaa.png" src="" onclick="emoticon('content', ':whaaa:')" /></div><div title=":whocare:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/whocare.png" src="" onclick="emoticon('content', ':whocare:')" /></div><div title=":wot:" class="emoticon closesmilies"><img class="lazyboom" data-img="emoticon/wot.png" src="" onclick="emoticon('content', ':wot:')" /></div> </div>
+</div>
+<div id="main_input_extra" class="add_shadow background_box">
+<div class="sub_options" onclick="getTextOptions();">
+<img src="default_images/icons/pencil.svg" />
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="chat_input_container">
+<div id="top_chat_container">
+<div id="container_input" class="input_wrap">
+<form id="main_input" name="chat_data" action="" method="post">
+<div class="input_table">
+<div id="ok_sub_item" class="input_item main_item base_main sub_hidden" onclick="getChatSub();">
+<i class="fa fa-plus input_icon bblock"></i>
+</div>
+<div value="0" class="input_item main_item base_main" onclick="showEmoticon();" id="emo_item">
+<i class="fa fa-smile-o bblock"></i>
+</div>
+<div id="main_input_box" class="td_input">
+<input type="text" spellcheck="false" name="content" placeholder="Type something ..." maxlength="300" id="content" autocomplete="off" />
+</div>
+<div id="inputt_right" class="main_item">
+<button type="submit" class="default_btn csend" id="submit_button"><i class="fa fa-paper-plane"></i></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="chat_right" class="cright chat_panel prheight">
+<div id="chat_right_content" class="prheight">
+<div id="wrap_right_data" class="prheight">
+<div id="right_panel_bar" class="panel_bar">
+<div onclick="closeRight();" class="panel_bar_item">
+<i class="fa fa-times"></i>
+</div>
+<div class="bcell_mid">
+</div>
+<div id="users_option" title="Users list" class="panel_selected panel_option" onclick="userReload(1);">
+<i class="fa fa-users"></i>
+</div>
+<div id="friends_option" title="Friends list" class="panel_option" onclick="myFriends(1);">
+<i class="fa fa-user-plus"></i>
+</div>
+<div id="rooms_option" title="Rooms list" class="panel_option" onclick="getRoomList();">
+<i class="fa fa-home i_btm"></i>
+</div>
+</div>
+<div id="chat_right_data" class="crheight">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="private_box" class="privelem prifoff">
+<div class="top_panel btable top_background" id="private_top">
+<div onclick="" id="private_av_wrap" class="bcell_mid">
+<img id="private_av" src="">
+</div>
+<div onclick="" id="private_name" class="bcell_mid bellips">
+<p class="bellips"></p>
+</div>
+<div id="private_min" onclick="togglePrivate(1);" class="private_opt">
+<i class="fa fa-minus"></i>
+</div>
+<div id="private_min" onclick="showMenu('private_menu');" class="menutrig private_opt">
+<i class="fa fa-cog menutrig"></i>
+<div id="private_menu" class="sysmenu add_shadow fmenu">
+<div class="fmenu_item" onclick="ignoreThisUser();">
+<div class="fmenu_icon menuo">
+<i class="fa fa-ban"></i>
+</div>
+<div class="fmenu_text">
+Ignore </div>
+</div>
+<div class="fmenu_item" onclick="getPrivateSettings();">
+<div class="fmenu_icon menuo">
+<i class="fa fa-cogs"></i>
+</div>
+<div class="fmenu_text">
+Settings </div>
+</div>
+<div class="fmenu_item" onclick="reportPrivateLog();">
+<div class="fmenu_icon menuo">
+<i class="fa fa-flag"></i>
+</div>
+<div class="fmenu_text">
+Report </div>
+</div>
+<div class="fmenu_item" onclick="confirmClearPrivate();">
+<div class="fmenu_icon menuo">
+<i class="fa fa-trash"></i>
+</div>
+<div class="fmenu_text">
+Delete </div>
+</div>
+</div>
+</div>
+<div id="private_close" class="private_opt">
+<i class="fa fa-times"></i>
+</div>
+</div>
+<div id="private_wrap_content">
+<div id="private_content" class="background_box" value="1">
+<ul>
+</ul>
+</div>
+<div id="priv_input_extra" class="add_shadow background_box">
+</div>
+</div>
+<div id="private_input" class="input_wrap">
+<form id="message_form" action="" method="post" name="private_form">
+<div class="input_table">
+<div id="ok_priv_item" class="input_item main_item sub_hidden" onclick="getPrivSub();">
+<i class="fa fa-plus input_icon bblock"></i>
+</div>
+<div value="0" id="emo_item_priv" class="input_item main_item" onclick="showPrivEmoticon();">
+<i class="fa fa-smile-o"></i>
+</div>
+<div id="private_input_box" class="td_input">
+<input spellcheck="false" id="message_content" placeholder="Type something ..." maxlength="200" autocomplete="off" />
+</div>
+<div id="message_send" class="main_item">
+<button class="default_btn csend" id="private_send"><i class="fa fa-paper-plane"></i></button>
+</div>
+</div>
+</form>
+<div id="private_emoticon" class="background_box">
+<div class="emo_head private_emo_head">
+<div data="base_emo" class="dark_selected emo_menu emo_menu_item_priv"><img class="emo_select" src="emoticon_icon/base_emo.png" /></div>
+<div data="food" class="emo_menu emo_menu_item_priv"><img class="emo_select" src="emoticon_icon/food.png" /></div><div data="sticker_animals" class="emo_menu emo_menu_item_priv"><img class="emo_select" src="emoticon_icon/sticker_animals.png" /></div> <div class="empty_emo">
+</div>
+<div class="emo_menu" id="emo_close_priv" onclick="hidePrivEmoticon();">
+<i class="fa fa-times"></i>
+</div>
+</div>
+<div id="private_emo" class="emo_content_priv">
+<div title=":amazing:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/amazing.png" src="" onclick="emoticon('message_content', ':amazing:')" /></div><div title=":angel:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/angel.png" src="" onclick="emoticon('message_content', ':angel:')" /></div><div title=":angry:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/angry.png" src="" onclick="emoticon('message_content', ':angry:')" /></div><div title=":anxious:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/anxious.png" src="" onclick="emoticon('message_content', ':anxious:')" /></div><div title=":bad:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/bad.png" src="" onclick="emoticon('message_content', ':bad:')" /></div><div title=":bigsmile:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/bigsmile.png" src="" onclick="emoticon('message_content', ':bigsmile:')" /></div><div title=":blink:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/blink.png" src="" onclick="emoticon('message_content', ':blink:')" /></div><div title=":cool:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/cool.png" src="" onclick="emoticon('message_content', ':cool:')" /></div><div title=":crisped:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/crisped.png" src="" onclick="emoticon('message_content', ':crisped:')" /></div><div title=":cry:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/cry.png" src="" onclick="emoticon('message_content', ':cry:')" /></div><div title=":cry2:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/cry2.png" src="" onclick="emoticon('message_content', ':cry2:')" /></div><div title=":dead:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/dead.png" src="" onclick="emoticon('message_content', ':dead:')" /></div><div title=":desperate:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/desperate.png" src="" onclick="emoticon('message_content', ':desperate:')" /></div><div title=":devil:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/devil.png" src="" onclick="emoticon('message_content', ':devil:')" /></div><div title=":doubt:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/doubt.png" src="" onclick="emoticon('message_content', ':doubt:')" /></div><div title=":feelgood:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/feelgood.png" src="" onclick="emoticon('message_content', ':feelgood:')" /></div><div title=":funny:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/funny.png" src="" onclick="emoticon('message_content', ':funny:')" /></div><div title=":good:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/good.png" src="" onclick="emoticon('message_content', ':good:')" /></div><div title=":happy:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/happy.png" src="" onclick="emoticon('message_content', ':happy:')" /></div><div title=":happy3:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/happy3.png" src="" onclick="emoticon('message_content', ':happy3:')" /></div><div title=":hee:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hee.png" src="" onclick="emoticon('message_content', ':hee:')" /></div><div title=":heu:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/heu.png" src="" onclick="emoticon('message_content', ':heu:')" /></div><div title=":hilarous:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hilarous.png" src="" onclick="emoticon('message_content', ':hilarous:')" /></div><div title=":hmm:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hmm.png" src="" onclick="emoticon('message_content', ':hmm:')" /></div><div title=":hono:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hono.png" src="" onclick="emoticon('message_content', ':hono:')" /></div><div title=":hoo:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hoo.png" src="" onclick="emoticon('message_content', ':hoo:')" /></div><div title=":hooo:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/hooo.png" src="" onclick="emoticon('message_content', ':hooo:')" /></div><div title=":idontcare:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/idontcare.png" src="" onclick="emoticon('message_content', ':idontcare:')" /></div><div title=":indiferent:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/indiferent.png" src="" onclick="emoticon('message_content', ':indiferent:')" /></div><div title=":kiss:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/kiss.png" src="" onclick="emoticon('message_content', ':kiss:')" /></div><div title=":kiss2:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/kiss2.png" src="" onclick="emoticon('message_content', ':kiss2:')" /></div><div title=":kiss3:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/kiss3.png" src="" onclick="emoticon('message_content', ':kiss3:')" /></div><div title=":kiss4:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/kiss4.png" src="" onclick="emoticon('message_content', ':kiss4:')" /></div><div title=":med:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/med.png" src="" onclick="emoticon('message_content', ':med:')" /></div><div title=":medsmile:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/medsmile.png" src="" onclick="emoticon('message_content', ':medsmile:')" /></div><div title=":middlefinger:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/middlefinger.png" src="" onclick="emoticon('message_content', ':middlefinger:')" /></div><div title=":muted:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/muted.png" src="" onclick="emoticon('message_content', ':muted:')" /></div><div title=":nana:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/nana.png" src="" onclick="emoticon('message_content', ':nana:')" /></div><div title=":neutral:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/neutral.png" src="" onclick="emoticon('message_content', ':neutral:')" /></div><div title=":noooo:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/noooo.png" src="" onclick="emoticon('message_content', ':noooo:')" /></div><div title=":nosebleed:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/nosebleed.png" src="" onclick="emoticon('message_content', ':nosebleed:')" /></div><div title=":omg:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/omg.png" src="" onclick="emoticon('message_content', ':omg:')" /></div><div title=":omgomg:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/omgomg.png" src="" onclick="emoticon('message_content', ':omgomg:')" /></div><div title=":pokerface:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/pokerface.png" src="" onclick="emoticon('message_content', ':pokerface:')" /></div><div title=":poo:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/poo.png" src="" onclick="emoticon('message_content', ':poo:')" /></div><div title=":reverse:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/reverse.png" src="" onclick="emoticon('message_content', ':reverse:')" /></div><div title=":sad:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/sad.png" src="" onclick="emoticon('message_content', ':sad:')" /></div><div title=":sad2:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/sad2.png" src="" onclick="emoticon('message_content', ':sad2:')" /></div><div title=":scared:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/scared.png" src="" onclick="emoticon('message_content', ':scared:')" /></div><div title=":sick2:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/sick2.png" src="" onclick="emoticon('message_content', ':sick2:')" /></div><div title=":sleep:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/sleep.png" src="" onclick="emoticon('message_content', ':sleep:')" /></div><div title=":smile:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/smile.png" src="" onclick="emoticon('message_content', ':smile:')" /></div><div title=":smileface:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/smileface.png" src="" onclick="emoticon('message_content', ':smileface:')" /></div><div title=":smileteeth:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/smileteeth.png" src="" onclick="emoticon('message_content', ':smileteeth:')" /></div><div title=":sweat:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/sweat.png" src="" onclick="emoticon('message_content', ':sweat:')" /></div><div title=":tongue:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/tongue.png" src="" onclick="emoticon('message_content', ':tongue:')" /></div><div title=":tongue2:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/tongue2.png" src="" onclick="emoticon('message_content', ':tongue2:')" /></div><div title=":tongue3:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/tongue3.png" src="" onclick="emoticon('message_content', ':tongue3:')" /></div><div title=":toro:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/toro.png" src="" onclick="emoticon('message_content', ':toro:')" /></div><div title=":totalangry:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/totalangry.png" src="" onclick="emoticon('message_content', ':totalangry:')" /></div><div title=":totallove:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/totallove.png" src="" onclick="emoticon('message_content', ':totallove:')" /></div><div title=":trump:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/trump.png" src="" onclick="emoticon('message_content', ':trump:')" /></div><div title=":verysad:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/verysad.png" src="" onclick="emoticon('message_content', ':verysad:')" /></div><div title=":whaaa:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/whaaa.png" src="" onclick="emoticon('message_content', ':whaaa:')" /></div><div title=":whocare:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/whocare.png" src="" onclick="emoticon('message_content', ':whocare:')" /></div><div title=":wot:" class="emoticon closesmilies_priv"><img class="lazyboom" data-img="emoticon/wot.png" src="" onclick="emoticon('message_content', ':wot:')" /></div> </div>
+</div>
+</div>
+</div>
+<div id='container_stream' class="background_stream">
+<div id='stream_header'>
+<i id="close_stream" class="fa fa-times"></i>
+</div>
+<div id='wrap_stream'>
+<iframe src='' allowfullscreen scrolling='no' frameborder='0'></iframe>
+</div>
+</div>
+<div id="wrap_footer" data="1">
+<div class="chat_footer" id="menu_container">
+<div id="menu_container_inside">
+<div id="player_options" class="player_options sysmenu add_shadow hideall hidden">
+<div class="player_list_container">
+<p class="text_xsmall bold bpad5 rtl_elem">Station list</p>
+<div id="player_listing">
+<div class="radio_element sub_list_item" data="https://ice55.securenetsystems.net/DASH58?cb=1589419551"><div class="sub_list_name">Pop Radio</div></div><div class="radio_element sub_list_item" data="https://ice55.securenetsystems.net/DASH49?cb=1589419551"><div class="sub_list_name">Hip Hop</div></div> </div>
+</div>
+<div class="player_volume">
+<div id="sound_display" class="bcell_mid">
+<i class="fa fa-volume-down show_sound"></i>
+</div>
+<div id="player_volume" class="bcell_mid boom_slider">
+<div id="slider"></div>
+</div>
+</div>
+</div>
+<div id="my_menu">
+<div class="chat_footer_empty bcell_mid">
+<div class="chat_player" style="display:inline-table">
+<div class="player_menu player_elem menutrig" onclick="showMenu('player_options');">
+<i class="fa fa-sliders menutrig"></i>
+</div>
+<div id="player_actual_status" class="player_elem player_button turn_on_play">
+<i id="current_play_btn" class="fa fa-play-circle"></i>
+</div>
+<div id="current_player" class="player_elem player_current">
+<p class="bellips text_xsmall theme_color">Station</p>
+<p class="bellips" id="current_station">Pop Radio</p>
+</div>
+</div>
+</div>
+<div id="dpriv" onclick="togglePrivate(2);" class="chat_footer_item privhide">
+<img id="dpriv_av" src="" />
+<div id="dpriv_notify" class="notification bnotify">
+0
+</div>
+</div>
+<div onclick="toggleRight();" class="chat_footer_item">
+<i class="fa fa-bars i_btm"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="av_menu" class="avmenu add_shadow">
+<div id="avcontent" class="avcontent">
+</div>
+</div>
+<div id="log_menu" class="add_shadow">
+<div id="logmenu" class="logmenu">
+</div>
+</div>
+<div id="monitor_data" onclick="getMonitor();">
+<p>Count: <span id="logs_counter">0</span></p>
+<p>Speed: <span id="current_speed">0</span></p>
+<p>Latency: <span id="current_latency">0</span></p>
+</div>
+<div id="action_menu" class="hidden">
+<div class="avheader">
+<div class="avtop btable top_background topcard avbackground">
+<div class="bcell_mid">
+<div class="avtopmenu btable">
+<div class="bcell_mid">
+</div>
+</div>
+<div class="btable avavpart">
+<div class="bcell_mid avtop_content">
+<img class="avavatar" src="" />
+</div>
+</div>
+<div class="btable avdetails">
+<p class="avusername cover_text bellips"></p>
+<p class="avagegender cover_text bellips"><span class="avage"></span> <span class="avgender"></span></p>
+<img src="" class="avflag" />
+</div>
+</div>
+</div>
+</div>
+<div class="avself background_box bottomcard">
+<div data="" value="" data-av="" class="avset avitem get_info">
+<i class="fa fa-user-circle-o default_color"></i> View profile	</div>
+<div data="" value="" data-av="" class="avset avitem" onclick="editProfile();">
+<i class="fa fa-edit theme_color"></i> Edit	</div>
+</div>
+<div class="avbot background_box bottomcard">
+<div data="" value="" data-av="" class="avset avitem get_info">
+<i class="fa fa-user-circle-o default_color"></i> View profile	</div>
+<div data="" value="" data-av="" class="avset avitem gprivate">
+<i class="fa fa-comments theme_color"></i> Private	</div>
+</div>
+<div class="avstaff background_box bottomcard">
+<div data="" value="" data-av="" class="avset avitem get_info">
+<i class="fa fa-user-circle-o default_color"></i> View profile	</div>
+<div data="" value="" data-av="" class="avset avitem gprivate">
+<i class="fa fa-comments theme_color"></i> Private	</div>
+<div data="" value="" data-av="" class="avset avitem get_actions avactions">
+<i class="fa fa-flash error"></i> Action	</div>
+</div>
+<div class="avroomstaff background_box bottomcard">
+<div data="" value="" data-av="" class="avset avitem get_info">
+<i class="fa fa-user-circle-o default_color"></i> View profile	</div>
+<div data="" value="" data-av="" class="avset avitem gprivate">
+<i class="fa fa-comments theme_color"></i> Private	</div>
+<div data="" value="" data-av="" class="avset avitem get_room_actions avactions">
+<i class="fa fa-flash error"></i> Action	</div>
+</div>
+<div class="avother background_box bottomcard">
+<div data="" value="" data-av="" class="avset avitem get_info">
+<i class="fa fa-user-circle-o default_color"></i> View profile	</div>
+<div data="" value="" data-av="" class="avset avitem gprivate">
+<i class="fa fa-comments theme_color"></i> Private	</div>
+</div></div>
+<div id="log_menu_content" class="hidden">
+<div data="" onclick="deleteLog(this);" class="fmenu_item fmenut log_menu_item log_delete">
+Delete</div>
+<div data="" onclick="reportChatLog(this);" class="fmenu_item fmenut log_menu_item log_report">
+Report</div></div>
+<div id="status_list" class="hidden">
+<div class="pad15">
+<div class="status_option sub_item" onclick="updateStatus(1);" data="1">
+<div class="zone_status"><img class="icon_status" src="default_images/status/online.svg" /></div>
+<div class="icon_text">Online</div>
+</div><div class="status_option sub_item" onclick="updateStatus(2);" data="2">
+<div class="zone_status"><img class="icon_status" src="default_images/status/away.svg" /></div>
+<div class="icon_text">Away</div>
+</div><div class="status_option sub_item" onclick="updateStatus(3);" data="3">
+<div class="zone_status"><img class="icon_status" src="default_images/status/busy.svg" /></div>
+<div class="icon_text">Busy</div>
+</div></div></div>
+<script data-cfasync="false">
+
+var giphyKey = 'ARPHrP8UYCYeat4driffGdVs9xAvICXc';
+var giphyLimit = 0;
+var giphyGifMax = 16;
+var giphyStickerMax = 20;
+var giphyType = 'gifs';
+var giphyBox = 'giphy_gifs';
+var giphyTemplate = '';
+var giphyMode = 1;
+var giphyTarget = 0;
+
+getGiphy = function(md){
+	giphyMode = md;
+	if(md == 2){
+		giphyTarget = $('#get_private').attr('value');
+	}
+	else {
+		giphyTarget = 0;
+	}
+	if(giphyTemplate == ''){
+		$.post('addons/giphy/system/giphy_template.php', {
+			token: utk,
+			}, function(response) {
+				showEmptyModal(response, 360);
+				resetGiphy();
+				giphySearch(1);
+				giphyTemplate = response;
+		});
+	}
+	else {
+		showEmptyModal(giphyTemplate, 360);
+		resetGiphy();
+		giphySearch(1);
+	}
+}
+giphyItemTemplate = function(i, o, c, u, t){
+	var giphyRes = '';
+	if(t == 'stickers'){
+		giphyRes = 2;
+	}
+	return '<div onclick="sendGiphy(\''+i+'\', \''+o+'\', \''+c+'\');" class="giphy_res_box'+giphyRes+'"><img src="'+u+'" autoplay loop></div>';
+}
+
+startGiphySearch = function(event, item){
+	var giphyContent = $(item).val();
+	if(event.keyCode == 13 && event.shiftKey == 0){
+		if (/^\s+$/.test(giphyContent) || giphyContent == ''){
+			return false;
+		}
+		else {
+			giphySearch(0);
+		}
+	}
+}
+resetGiphy = function(){
+	giphyType = 'gifs';
+	giphyLimit = giphyGifMax;
+	giphyBox = 'giphy_gifs';
+	$('#'+giphyBox).show();
+}
+sendGiphy = function(gid, ori, ch){
+	hideModal();
+	$.post('addons/giphy/system/action.php', {
+		origin: ori,
+		chat: ch,
+		type: giphyMode,
+		target: giphyTarget,
+		id: gid,
+		token: utk,
+		}, function(response) {
+			if(response == 20){
+				callSaved(system.cannotContact, 3);
+			}
+	});	
+}
+giphySelect = function(type){
+	if(type == 2){
+		giphyType = 'stickers';
+		giphyBox = 'giphy_stickers';
+		giphyLimit = giphyStickerMax;
+		if($('#'+giphyBox).is(':empty')){
+			giphySearch(2);
+		}
+	}
+	else {
+		giphyType = 'gifs';
+		giphyBox = 'giphy_gifs';
+		giphyLimit = giphyGifMax;
+		if($('#'+giphyBox).is(':empty')){
+			giphySearch(1);
+		}
+	}
+}
+giphySet = function(type){
+	$('.giphy_results').hide();
+	$('#'+type).show();	
+}
+giphySearch = function(type){
+	var giphyData = {};
+	var giphyUrl = '';
+	if(giphyKey == ''){
+		return false;
+	}
+	else {
+		if(type == 1){
+			giphyData = {api_key: giphyKey, limit: 8};
+			giphyUrl = 'https://api.giphy.com/v1/gifs/trending';
+		}
+		else if(type == 2){
+			giphyData = {api_key: giphyKey, limit: 16};
+			giphyUrl = 'https://api.giphy.com/v1/stickers/trending';
+		}
+		else {
+			giphyData = {q: $('#find_giphy').val(),api_key: giphyKey, limit: giphyLimit};
+			giphyUrl = 'https://api.giphy.com/v1/'+giphyType+'/search?';
+			$('#find_giphy').val('');
+		}
+		$.ajax({
+		  url: giphyUrl,
+		  type: 'GET',
+		  dataType: 'json',
+		  data: giphyData,
+		})
+		.done(function(data) {
+		  if (data.meta.status == 200 && data.data.length > 0) {
+			$('#'+giphyBox).html('');
+			$('#'+giphyBox).scrollTop(0);
+			for (var i = 0; i < data.data.length; i++) {
+				var gifId = data.data[i].id;
+				var gifOrigin = data.data[i].images.original.url;
+				var gifHeight = data.data[i].images.fixed_height_small.url;
+				var gifTumb = data.data[i].images.fixed_width_small.url;
+				if(gifTumb == ''){
+					gifTumb = data.data[i].images.fixed_width.url;
+					gifHeight = data.data[i].images.fixed_width.url;
+				}
+				$('#'+giphyBox).append(giphyItemTemplate(gifId, gifOrigin, gifHeight, gifTumb, giphyType));
+			}
+		  }
+		  else{
+			$('#'+giphyBox).html(noDataTemplate());
+		  }
+		})
+		.fail(function() {
+			return false;
+		})
+	}
+}
+
+$(document).ready(function(){
+	appInputMenu('https://www.chat-avenue.com/girls/addons/giphy/files/giphy.svg', 'getGiphy(1);');
+	appPrivInputMenu('https://www.chat-avenue.com/girls/addons/giphy/files/giphy.svg', 'getGiphy(2);');
+	boomAddCss('addons/giphy/files/giphy.css');
+});
+
+</script>
+<script data-cfasync="false">
+var requestType = 'reg';
+var superbot = 'Superbot';
+var superLow = 'superbot';
+var superbotId = '3';
+
+$(document).ready(function(){
+
+	$('#main_input').submit(function(event){
+		var checkbot = $('#content').val();
+		var checkbotLow = $('#content').val().toLowerCase();
+		if( checkbot.match(superbot) || checkbotLow.match(superLow) ){
+			$.post('addons/superbot/system/superbot_main.php', { 
+				search: checkbot,
+				name: superbot,
+				type: requestType,
+				token: utk,
+				}, function(response) {
+
+			});
+		}
+	});
+	$('#private_input').submit(function(event){
+		var uPrivate = $('#get_private').attr('value');
+		var privBot = $('#message_content').val();
+		if(privBot == '' || /^\s+$/.test($('#message_content').val()) ){
+			event.preventDefault();
+		}
+		else {
+			if(uPrivate == superbotId){
+				$.post('addons/superbot/system/superbot_private.php', { 
+					search: privBot,
+					name: superbot,
+					bid: uPrivate,
+					token: utk,
+					}, function(response) {
+
+				});
+			}
+		}
+	});
+});
+</script>
+<script data-cfasync="false">
+
+$(document).ready(function(){
+	
+	$('#main_input').submit(function(event){
+		var commandos = $('#content').val();
+		if(commandos.match("^!") ){
+			chatInput();
+			$.post('addons/commandos/system/action.php', {
+				commandos: commandos,
+				token: utk,
+				}, function(response) {
+					if(response == 1){
+						return false;
+					}
+					else if(response == 2){
+						callSaved(system.invalidCommand, 3);
+					}
+					else if(response == 3){
+						callSaved(system.noUser, 3);
+					}
+					else if(response == 4){
+						callSaved('This command require username', 3);
+					}
+					else{
+						callSaved(system.error, 3);
+					}
+			});
+			event.stopImmediatePropagation();
+			return false;
+		}
+	});
+
+});
+
+</script>
+<script data-cfasync="false">
+
+var ev_delay = (function() {
+  var timer = 0;
+  return function(callback, ms) {
+    clearTimeout(timer);
+    timer = setTimeout(callback, ms);
+  };
+})();
+getSearchUser = function() {
+  closeLeft();
+  panelIt(400, 1);
+  $.post('addons/user_search/system/user_search_template.php', {
+    token: utk,
+	}, function(response) {
+		chatRightIt(response);
+		selectIt();
+  });
+}
+evSearchUser = function(){
+	$("#ev_user_results").fadeIn().html('<div class="centered_element vpad15"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i></div>');
+	ev_delay(function() {
+		$.post('addons/user_search/system/action.php', {
+			query: $('#ev_search_users').val(),
+			search_type: $('#ev_search_type').val(),
+			search_order: $('#ev_search_order').val(),
+			token: utk,
+			}, function(response) {
+				$('#ev_user_results').fadeIn();
+				$("#ev_user_results").html(response);
+		});
+	}, 2000);
+}
+
+$(document).ready(function() {
+	appPanelMenu('search', 'Search', 'getSearchUser();');
+	$(document).on('change', '#ev_search_type, #ev_search_order', function() {
+		var evSearchVal = $(this).val();
+		evSearchUser();
+	});
+	$(document).on('keyup', '#ev_search_users', function() {
+		evSearchUser();
+	});
+});
+
+</script>
+<script data-cfasync="false">
+$(document).ready(function(){
+	boomAddCss('addons/adnoyer/files/adnoyer.css');
+});
+</script><script data-cfasync="false">
+openVip = function(){
+	$.post('addons/vip/system/vip_box.php', { 
+		token: utk,
+		}, function(response) {
+			showModal(response, 460);
+	});
+}
+vipRecover = function(){
+	$.post('addons/vip/system/vip_recover.php', { 
+		vip_recover: 1,
+		token: utk,
+		}, function(response) {
+	});
+}
+$(document).ready(function(){
+	boomAddCss('addons/vip/files/vip.css');
+		appLeftMenu('diamond', 'Vip', 'openVip();', 'vip_addons_menu');
+		});
+</script>
+<script data-cfasync="false" type="text/javascript">
+vpBlock = function(){
+	$.post('addons/vpblock/system/action.php', { 
+		vpblock: 1,
+		token: utk,
+		}, function(response) {
+			if(response == 1){
+				location.reload(true);
+			}
+	});
+}
+$(document).ready(function(){
+	vpBlock();
+});
+</script>
+<script data-cfasync="false">
+
+quizLeaderboard = function(){
+	$.post('addons/quizbot/system/leaderboard.php', { 
+		token: utk,
+		}, function(response) {
+		showModal(response, 420);
+	});
+}
+
+$(document).ready(function(){
+	appLeftMenu('question-circle', 'Quiz scores', 'quizLeaderboard();');
+	boomAddCss('addons/quizbot/files/quizbot.css');
+});
+</script><script data-cfasync="false" src="js/function_main.js?v=1.81"></script>
+<script data-cfasync="false" src="js/function_menu.js?v=1.81"></script>
+<script data-cfasync="false" src="js/function_player.js?v=1.81"></script><div id="side_content" class="chat_side_panel">
+<div id="side_top" class="side_bar">
+<div class="side_bar_item close_side">
+<i class="fa fa-times"></i>
+</div>
+<div class="bcell_mid">
+</div>
+</div>
+<div id="side_inside">
+</div>
+</div>
+<div id="small_modal" class="small_modal_out modal_back">
+<div id="small_modal_in" class="small_modal_in modal_in">
+<div class="modal_top">
+<div class="modal_top_empty">
+</div>
+<div class="modal_top_element close_modal">
+<i class="fa fa-times"></i>
+</div>
+</div>
+<div id="small_modal_content" class="modal_content small_modal_content">
+</div>
+</div>
+</div>
+<div id="large_modal" class="large_modal_out modal_back">
+<div id="large_modal_in" class="large_modal_in modal_in">
+<div id="large_modal_content" class="modal_content large_modal_content">
+</div>
+</div>
+</div>
+<div id="over_modal" class="over_modal_out modal_back">
+<div id="over_modal_in" class="over_modal_in modal_in">
+<div class="modal_top">
+<div class="modal_top_empty">
+</div>
+<div class="modal_top_element close_over">
+<i class="fa fa-times"></i>
+</div>
+</div>
+<div id="over_modal_content" class="modal_content over_modal_content">
+</div>
+</div>
+</div>
+<div id="over_emodal" class="over_emodal_out modal_back">
+<div id="over_emodal_in" class="over_emodal_in modal_in">
+<div id="over_emodal_content" class="modal_content over_emodal_content">
+</div>
+</div>
+</div>
+<div class="saved_data">
+<span class="saved_span"></span>
+</div>
+<audio class="hidden" id="private_sound" src="https://www.chat-avenue.com/girls/sounds/private.mp3?v=1.81"></audio>
+<audio class="hidden" id="message_sound" src="https://www.chat-avenue.com/girls/sounds/new_messages.mp3?v=1.81"></audio>
+<audio class="hidden" id="username_sound" src="https://www.chat-avenue.com/girls/sounds/username.mp3?v=1.81"></audio>
+<audio class="hidden" id="whistle_sound" src="https://www.chat-avenue.com/girls/sounds/whistle.mp3?v=1.81"></audio>
+<audio class="hidden" id="notify_sound" src="https://www.chat-avenue.com/girls/sounds/notify.mp3?v=1.81"></audio>
+<audio class="hidden" id="news_sound" src="https://www.chat-avenue.com/girls/sounds/new_news.mp3?v=1.81"></audio>
+<audio class="hidden" id="clear_sound" src="https://www.chat-avenue.com/girls/sounds/clear.mp3?v=1.81"></audio>
+<audio class="hidden" id="join_sound" src="https://www.chat-avenue.com/girls/sounds/join.mp3?v=1.81"></audio>
+<audio class="hidden" id="leave_sound" src="https://www.chat-avenue.com/girls/sounds/leave.mp3?v=1.81"></audio>
+<audio class="hidden" id="action_sound" src="https://www.chat-avenue.com/girls/sounds/action.mp3?v=1.81"></audio>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/fonts.css?v=1.81">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"690d799bfd40d78d","token":"c174b8662d4b4b199b7378b97d4f7762","version":"2021.8.1","si":10}'></script>
+</body>
+</html>
